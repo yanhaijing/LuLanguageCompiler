@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LuLanguageCompiler - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/LuLanguageCompiler.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\LuLanguageCompiler\SyntacticAnalyzer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA6.tmp" 
+<h3>Output Window</h3>
+Compiling...
+SyntacticAnalyzer.cpp
+E:\LuLanguageCompiler\SyntacticAnalyzer.cpp(9) : warning C4005: 'NULL' : macro redefinition
+        c:\program files\microsoft visual studio\vc98\include\stdio.h(210) : see previous definition of 'NULL'
+E:\LuLanguageCompiler\SyntacticAnalyzer.cpp(79) : error C2143: syntax error : missing ')' before '{'
+E:\LuLanguageCompiler\SyntacticAnalyzer.cpp(79) : error C2059: syntax error : ')'
+E:\LuLanguageCompiler\SyntacticAnalyzer.cpp(79) : error C2143: syntax error : missing ';' before '{'
+E:\LuLanguageCompiler\SyntacticAnalyzer.cpp(79) : error C2143: syntax error : missing ';' before '}'
+E:\LuLanguageCompiler\SyntacticAnalyzer.cpp(79) : error C2059: syntax error : ')'
+E:\LuLanguageCompiler\SyntacticAnalyzer.cpp(84) : error C2181: illegal else without matching if
+E:\LuLanguageCompiler\SyntacticAnalyzer.cpp(92) : error C2059: syntax error : '{'
+E:\LuLanguageCompiler\SyntacticAnalyzer.cpp(92) : error C2143: syntax error : missing ';' before '{'
+E:\LuLanguageCompiler\SyntacticAnalyzer.cpp(92) : error C2143: syntax error : missing ';' before '}'
+E:\LuLanguageCompiler\SyntacticAnalyzer.cpp(99) : error C2065: 'NUll' : undeclared identifier
+E:\LuLanguageCompiler\SyntacticAnalyzer.cpp(99) : error C2676: binary '!=' : 'struct sBinaryRelation' does not define this operator or a conversion to a type acceptable to the predefined operator
+E:\LuLanguageCompiler\SyntacticAnalyzer.cpp(99) : fatal error C1903: unable to recover from previous error(s); stopping compilation
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+SyntacticAnalyzer.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
